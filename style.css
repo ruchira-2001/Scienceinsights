@@ -65,6 +65,7 @@ ul li a:hover{
       color: rgb(172, 31, 148);
 }
 
+
 .search{
     width: 330px;
     float: left;
@@ -162,11 +163,11 @@ ul li a:hover{
 
 .form{
      width: 250px;
-     height: 380px;
+     height: 420px;
      background: linear-gradient(to top,  rgba(0, 0, 0, 0.5)50%,  rgba(0,0,0,0.5)50%);
      position: absolute;
      left: 830px;
-     top: -5px;
+     top: -35px;
      border-radius: 15px;
      padding: 25px;
 }
@@ -228,7 +229,31 @@ ul li a:hover{
      text-decoration: none;
      color: black;
      font-weight: bold;
+    
 }
+
+.remember-forgot input[type="checkbox"] {
+  width: 15px; 
+  height: 15px; 
+}
+
+.remember-forgot label {
+  font-size: 14px; 
+}
+
+.remember-forgot a {
+  color: rgb(63, 221, 195);
+  text-decoration: none; 
+  font-size: 16px;
+  margin-top: 5px; 
+  display: block; 
+  transition: 0.3s ease-in-out;
+}
+
+.remember-forgot a:hover {
+  color: rgb(173, 13, 139); 
+}
+
 
 .form .link{
      font-family: Arial, Helvetica, sans-serif;
