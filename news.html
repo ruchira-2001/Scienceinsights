@@ -1,12 +1,28 @@
+<!--iFrames are used in this html document,
+an iframe (short for inline frame) in HTML is used to embed another HTML document within the current document. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News - Science Insights</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+
 </head>
 <body>
-  <h1>News</h1>
-  <p>News articles and updates will be added soon.</p>
+   <iframe src="https://www.sciencenews.org/" frameborder="0"></iframe>
 </body>
 </html>
