@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>image map</title>
+  </head>
+  
+  <style>
+  * {
+            box-sizing: border-box;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height:100%;
+        }
+        img {
+            max-width: 160%;
+            height: 120%;
+            padding: 3rem;
+            display:inline-block;
+            margin: 0 auto;
+        }
+
+        figcaption {
+            text-align: left;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-style: italic;
+            color: #061e52;
+        }
+  </style>
+
+  <body>
+    
+    <figcaption>Choose your own space-ship to explore your Favorite Sciences</figcaption>
+    <img src="Images/5.jpg" usemap="#image_map" />
+    <map name="image_map">
+            <area alt="Chemisty Voyagers" title="Chemisty Voyagers" target="_blank" href="https://www.newscientist.com/definition/chemistry/#:~:text=Chemistry%20is%20the%20study%20of,and%20earth%20sciences%20including%20geology." coords="819,584,127" shape="circle">
+            <area alt="Physics Navigators" title="Physics Navigators" target="_blank" href="https://www.britannica.com/science/physics-science" coords="1004,316,73" shape="circle">
+            <area alt="Biology Pathfinders" title="Biology Pathfinders" target="_blank" href="https://www.britannica.com/science/biology" coords="738,145,40" shape="circle">
+            <area alt="Astronomy Adventurers" title="Astronomy Adventurers" target="_blank" href="https://www.amnh.org/explore/ology/astronomy/what-is-astronomy#:~:text=Astronomy%20is%20the%20study%20of,the%20planets%2C%20and%20the%20stars%20." coords="366,91,23" shape="circle">
+    </map>
+
+      <script src="imagemap.js"></script>
+      <script>
+        imageMapResize();
+      </script>
+    </body>
+  </html>

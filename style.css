@@ -154,6 +154,8 @@ ul li a:hover{
 
 .cn:hover{
     background-color: white;
+    transition: .3s ease;
+}
 }
 
 .content span{
