@@ -1,0 +1,44 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("Images/7.jpg");
+  background-position: center;
+  background-size: center;
+  height: 120vh;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: aliceblue;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  color: aqua;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  color: black;
+}
