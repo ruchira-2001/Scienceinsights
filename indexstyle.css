@@ -6,7 +6,7 @@
 
 body{
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("images/8.jpg");
+  background: linear-gradient(to top, rgba(31, 21, 21, 0.8)30%,rgba(22, 13, 13, 0.8)20%), url("images/8.jpg");
   background-position: center;
   background-size: cover;
   height: 109vh;
@@ -35,7 +35,7 @@ h1 {
 
 .article-subheading {
   font-size: 18px;
-  color: #f8e9e9;
+  color: #1b1919;
   background-color: rgba(77, 218, 187, 0.7); 
   margin-bottom: 15px;
   font-weight: 200;
@@ -47,7 +47,7 @@ h1 {
   line-height: 1.5;
   margin-bottom: 20px;
   text-align: justify;
-  background-color: beige(77,213,187,0.7);
+  background-color: white(77,213,187,0.7);
 }
 
 .video-container {
@@ -67,6 +67,7 @@ h1 {
 
 .article-author {
   font-style: italic;
-  color: #888;
+  color: #dbd1d1;
+  font-size: 20px;
   text-align: right;
 }
