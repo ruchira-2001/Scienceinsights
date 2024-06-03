@@ -1,8 +1,4 @@
-/*! Image Map Resizer (imageMapResizer.min.js ) - v1.0.10 - 2019-04-10
- *  Desc: Resize HTML imageMap to scaled image.
- *  Copyright: (c) 2019 David J. Bradshaw - dave@bradshaw.net
- *  License: MIT
- */
+
 
 !(function () {
   "use strict";

@@ -14,6 +14,41 @@
 }
 
 
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul li{
+ list-style: none;
+ margin-left: 62px;
+ margin-top: 27px;
+ font-size: 17px;
+}
+
+ul li a{
+text-decoration: none;
+color: rgb(147, 199, 223);
+font-family: Arial;
+font-weight: bold;
+transition: 0.3s ease-in-out;
+}
+
+ul li a:hover{
+   color: rgb(172, 31, 148);
+   transition: 0.3s ease-in-out;
+   
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
